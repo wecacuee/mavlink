@@ -5115,7 +5115,7 @@
       <field type="double[16]" name="distance" units="m">Distance reported by individual wheel encoders. Forward rotations increase values, reverse rotations decrease them. Not all wheels will necessarily have wheel encoders; the mapping of encoders to wheel positions must be agreed/understood by the endpoints.</field>
     </message>
     <message id="340" name="PWM_OUTPUT_STATUS">
-      <description>The RAW values of the PWM outputs. The standard PPM modulation is as follows: 1000 microseconds: 0%, 2000 microseconds: 100%.</description>
+      <description>The RAW values of the PWM outputs. Zero values indicate unused channels. The standard PPM modulation is as follows: 1000 microseconds: 0%, 2000 microseconds: 100%.</description>
       <field type="uint64_t" name="time_usec" units="us">Timestamp (since system boot).</field>
       <field type="uint16_t" name="pwm1" units="us">Servo / motor output 1 value.</field>
       <field type="uint16_t" name="pwm2" units="us">Servo / motor output 2 value.</field>
