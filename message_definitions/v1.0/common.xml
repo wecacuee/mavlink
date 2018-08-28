@@ -5116,23 +5116,23 @@
     </message>
     <message id="340" name="PWM_OUTPUT_STATUS">
       <description>The RAW values of the PWM outputs. The standard PPM modulation is as follows: 1000 microseconds: 0%, 2000 microseconds: 100%.</description>
-      <field type="uint64_t" name="time_usec" units="us">Timestamp (microseconds since system boot)</field>
-      <field type="uint16_t" name="pwm1" units="us">Servo / motor output 1 value, in microseconds</field>
-      <field type="uint16_t" name="pwm2" units="us">Servo / motor output 2 value, in microseconds</field>
-      <field type="uint16_t" name="pwm3" units="us">Servo / motor output 3 value, in microseconds</field>
-      <field type="uint16_t" name="pwm4" units="us">Servo / motor output 4 value, in microseconds</field>
-      <field type="uint16_t" name="pwm5" units="us">Servo / motor output 5 value, in microseconds</field>
-      <field type="uint16_t" name="pwm6" units="us">Servo / motor output 6 value, in microseconds</field>
-      <field type="uint16_t" name="pwm7" units="us">Servo / motor output 7 value, in microseconds</field>
-      <field type="uint16_t" name="pwm8" units="us">Servo / motor output 8 value, in microseconds</field>
-      <field type="uint16_t" name="pwm9" units="us">Servo / motor output 9 value, in microseconds</field>
-      <field type="uint16_t" name="pwm10" units="us">Servo / motor output 10 value, in microseconds</field>
-      <field type="uint16_t" name="pwm11" units="us">Servo / motor output 11 value, in microseconds</field>
-      <field type="uint16_t" name="pwm12" units="us">Servo / motor output 12 value, in microseconds</field>
-      <field type="uint16_t" name="pwm13" units="us">Servo / motor output 13 value, in microseconds</field>
-      <field type="uint16_t" name="pwm14" units="us">Servo / motor output 14 value, in microseconds</field>
-      <field type="uint16_t" name="pwm15" units="us">Servo / motor output 15 value, in microseconds</field>
-      <field type="uint16_t" name="pwm16" units="us">Servo / motor output 16 value, in microseconds</field>
+      <field type="uint64_t" name="time_usec" units="us">Timestamp (since system boot).</field>
+      <field type="uint16_t" name="pwm1" units="us">Servo / motor output 1 value.</field>
+      <field type="uint16_t" name="pwm2" units="us">Servo / motor output 2 value.</field>
+      <field type="uint16_t" name="pwm3" units="us">Servo / motor output 3 value.</field>
+      <field type="uint16_t" name="pwm4" units="us">Servo / motor output 4 value.</field>
+      <field type="uint16_t" name="pwm5" units="us">Servo / motor output 5 value.</field>
+      <field type="uint16_t" name="pwm6" units="us">Servo / motor output 6 value.</field>
+      <field type="uint16_t" name="pwm7" units="us">Servo / motor output 7 value.</field>
+      <field type="uint16_t" name="pwm8" units="us">Servo / motor output 8 value.</field>
+      <field type="uint16_t" name="pwm9" units="us">Servo / motor output 9 value.</field>
+      <field type="uint16_t" name="pwm10" units="us">Servo / motor output 10 value.</field>
+      <field type="uint16_t" name="pwm11" units="us">Servo / motor output 11 value.</field>
+      <field type="uint16_t" name="pwm12" units="us">Servo / motor output 12 value.</field>
+      <field type="uint16_t" name="pwm13" units="us">Servo / motor output 13 value.</field>
+      <field type="uint16_t" name="pwm14" units="us">Servo / motor output 14 value.</field>
+      <field type="uint16_t" name="pwm15" units="us">Servo / motor output 15 value.</field>
+      <field type="uint16_t" name="pwm16" units="us">Servo / motor output 16 value.</field>
     </message>
   </messages>
 </mavlink>
