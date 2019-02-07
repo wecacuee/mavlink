@@ -5108,24 +5108,9 @@
       <field type="uint16_t[16]" name="voltages" units="mV">Individual cell voltages. Batteries with more 16 cells can use the cell_offset field to specify the cell offset for the array specified in the current message . Index values above the valid cell count for this battery should have the UINT16_MAX value.</field>
     </message>
     <message id="375" name="PWM_OUTPUT_STATUS">
-      <description>The raw values of the PWM outputs. Zero values indicate unused channels.</description>
+      <description>The raw values of the PWM outputs.</description>
       <field type="uint64_t" name="time_usec" units="us">Timestamp (since system boot).</field>
-      <field type="uint16_t" name="pwm1" units="us">Servo / motor output 1 value.</field>
-      <field type="uint16_t" name="pwm2" units="us">Servo / motor output 2 value.</field>
-      <field type="uint16_t" name="pwm3" units="us">Servo / motor output 3 value.</field>
-      <field type="uint16_t" name="pwm4" units="us">Servo / motor output 4 value.</field>
-      <field type="uint16_t" name="pwm5" units="us">Servo / motor output 5 value.</field>
-      <field type="uint16_t" name="pwm6" units="us">Servo / motor output 6 value.</field>
-      <field type="uint16_t" name="pwm7" units="us">Servo / motor output 7 value.</field>
-      <field type="uint16_t" name="pwm8" units="us">Servo / motor output 8 value.</field>
-      <field type="uint16_t" name="pwm9" units="us">Servo / motor output 9 value.</field>
-      <field type="uint16_t" name="pwm10" units="us">Servo / motor output 10 value.</field>
-      <field type="uint16_t" name="pwm11" units="us">Servo / motor output 11 value.</field>
-      <field type="uint16_t" name="pwm12" units="us">Servo / motor output 12 value.</field>
-      <field type="uint16_t" name="pwm13" units="us">Servo / motor output 13 value.</field>
-      <field type="uint16_t" name="pwm14" units="us">Servo / motor output 14 value.</field>
-      <field type="uint16_t" name="pwm15" units="us">Servo / motor output 15 value.</field>
-      <field type="uint16_t" name="pwm16" units="us">Servo / motor output 16 value.</field>
+      <field type="uint16_t[16]" name="pwm" units="us">Servo / motor output array values. Zero values indicate unused channels.</field>
     </message>
     <!-- Rover specific messages -->
     <message id="9000" name="WHEEL_DISTANCE">
